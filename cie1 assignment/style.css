@@ -1,0 +1,275 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.hero h1 {
+    color: black; /
+}
+
+.hero p {
+    color: #ff6600; /* Text color for the paragraph */
+
+}
+
+
+.hero {
+    
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 25px 0;
+}
+
+.about {
+    padding: 10px;
+    text-align: center;
+}
+
+.categories {
+    padding: 20px;
+    text-align: center;
+}
+
+.cake-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cake-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 250px;
+}
+
+.cake-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+.cake-details {
+    padding: 20px;
+    text-align: center;
+}
+
+.cake-details img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.cake-details h2 {
+    margin: 10px 0;
+}
+
+.cake-details label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.cake-details select {
+    margin-bottom: 20px;
+}
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-image: url('hero-banner.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Sticky Navigation Bar */
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #f1f1f1;
+}
+
+/* About, Categories, and Contact Sections */
+.about, .categories, .contact {
+    padding: 20px;
+    text-align: center;
+}
+
+.cake-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cake-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 250px;
+}
+
+.cake-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Contact Form */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form input, .contact form textarea {
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.contact form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #555;
+}
+.testimonials {
+    padding: 20px;
+    text-align: center;
+}
+
+#testimonials-container {
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#testimonials-container .testimonial {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+#review-form {
+    margin-top: 20px;
+}
+
+#review-form input, #review-form textarea {
+    width: 80%;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+#review-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#review-form button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.footer-links, .footer-contact, .footer-social {
+    margin: 10px;
+    flex: 1;
+}
+
+.footer-links ul, .footer-social ul {
+    list-style-type: none;
+}
+
+.footer-links ul li, .footer-social ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a, .footer-social ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover, .footer-social ul li a:hover {
+    text-decoration: underline;
+}
+

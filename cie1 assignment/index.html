@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#categories">Cakes</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </nav>
+    <!-- Hero -->
+    <header class="hero">
+        <h1>Welcome to Our Cake Shop</h1>
+        <p>Delicious cakes for every occasion!</p>
+    </header>
+
+    <!-- About -->
+    <section class="about">
+        <h2>About Us</h2>
+        <p>At our cake shop, we create mouth-watering cakes made from the finest ingredients. Whether it's a birthday, wedding, or any special occasion, we have the perfect cake for you!</p>
+    </section>
+
+    <!-- Cake  -->
+    <section class="categories">
+        <h2>Our Cake Categories</h2>
+        <div class="cake-grid">
+            <!-- Birthday Cakes -->
+            <div class="cake-card">
+                <a href="cake-details.html?cake=birthday-cake">
+                <img src="cake1.jpeg" alt="Birthday Cake">
+                <h3>Birthday Cakes</h3>
+                <p>Starting at ₹500</p>
+                <p>Perfect for celebrating your special day!</p>
+                </a>
+            </div>
+
+            <!-- Wedding Cakes -->
+            <div class="cake-card">
+                <a href="cake-details.html?cake=wedding-cake">
+                <img src="wedidingcake.jpg" alt="Wedding Cake">
+                <h3>Wedding Cakes</h3>
+                <p>Starting at ₹2000</p>
+                <p>Elegantly crafted for your big day!</p>
+                </a>
+            </div>
+
+            <!-- Custom Cakes -->
+            <div class="cake-card">
+                <a href="cake-details.html?cake=custom-cake">
+                <img src="custom.jpg" alt="Custom Cake">
+                <h3>Custom Cakes</h3>
+                <p>Starting at ₹1500</p>
+                <p>Your imagination is our creation!</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <h2>Cake Photo Gallery</h2>
+        <div class="gallery-grid">
+            <img src="cake11.jpg" alt="Cake 1">
+            <img src="cake2.jpg" alt="Cake 2">
+            <img src="cake3.jpg" alt="Cake 3">
+            <img src="cake4.jpg" alt="Cake 4">
+            <img src="cake5.jpg" alt="Cake 5">
+            <img src="cake6.jpg" alt="Cake 6">
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+     <!-- Customer Testimonials Section -->
+     <section class="testimonials" id="testimonials">
+        <h2>Customer Testimonials</h2>
+        <div id="testimonials-container">
+            <!-- Existing testimonials will be displayed here -->
+        </div>
+
+        <!-- Review Form -->
+        <h3>Leave a Review</h3>
+        <form id="review-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="review">Your Review:</label>
+            <textarea id="review" required></textarea>
+
+            <button type="submit">Submit Review</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#categories">Cakes</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Address: 123 Cake Street, Bakery Town</p>
+                <p>Email: contact@cakeshop.com</p>
+                <p>Phone: +91-9876543210</p>
+            </div>
+
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2024 Cake Shop. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
